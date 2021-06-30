@@ -1,0 +1,21 @@
+services:
+  iptreatment:
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: iptreatment-api
+    ports:
+    - published: 9080
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/apple/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/apple/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+  iptreatmentpackage-api:
+    build:
+      context: /Users/apple/Projects/IpTreatment
+    ports:
+    - published: 9081
+      target: 80
+version: '3.4'

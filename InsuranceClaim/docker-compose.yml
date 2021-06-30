@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  insuranceclaim:
+    image: ${DOCKER_REGISTRY-}insuranceclaim
+    build:
+      context: .
+      dockerfile: InsuranceClaim/Dockerfile

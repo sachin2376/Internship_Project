@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{5E653540-1645-4C5E-959C-51B226702FE8}|Default">
+  <MonoDevelop.Ide.ItemProperties.IPTreatmentOffering PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/IpTreatmentPackagesController.cs">
+    <Files>
+      <File FileName="Repository/IpTreatmentPackageRepo.cs" Line="1" Column="1" />
+      <File FileName="Controllers/IpTreatmentPackagesController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IPTreatmentOffering" expanded="True">
+            <Node name="IPTreatmentOffering" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="IpTreatmentPackagesController.cs" selected="True" />
+              </Node>
+              <Node name="Repository" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>TreatmentOffering-Moq/TreatmentOffering-Moq.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

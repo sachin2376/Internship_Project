@@ -1,0 +1,65 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model IpTreatmentManagementPortal.Entities.TreatmentPlan
+
+<br />
+<br />
+<table class="table table-striped m-30 pl-30" style="text-align:left;justify-content:center;">
+    <tbody>
+        <tr>
+            <td> @Html.LabelFor(t => t.PackageName)</td>
+            <td> @Html.DisplayFor(t => t.PackageName)</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td> @Html.LabelFor(t => t.TestDetails)</td>
+            <td>
+                @Html.DisplayFor(t => t.TestDetails)
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td> @Html.LabelFor(t => t.Cost)</td>
+            <td> @Html.DisplayFor(t => t.Cost)</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td> @Html.LabelFor(t => t.SpecialistName)</td>
+            <td> @Html.DisplayFor(t => t.SpecialistName)</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td> @Html.LabelFor(t => t.TreatmentCommencementDate)</td>
+            <td> @Html.DisplayFor(t => t.TreatmentCommencementDate)</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td> @Html.LabelFor(t => t.TreatmentEnddate)</td>
+            <td> @Html.DisplayFor(t => t.TreatmentEnddate)</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><a class="btn btn-primary" asp-controller="Admin" asp-action="Index" role="button"> Ok </a></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+    </tbody>
+</table>
+
+

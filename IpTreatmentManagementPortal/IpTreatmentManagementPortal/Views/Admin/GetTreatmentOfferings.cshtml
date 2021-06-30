@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using IpTreatmentManagementPortal.Entities;
+@model List<IpTreatmentManagementPortal.Entities.IpTreatmentPackage>
+
+
+
+<br />
+<br />
+
+<table class="table table-striped" border="1" style="text-align:center">
+    <thead style="background-color: #75D2F7;">
+        <tr>
+            <th rowspan="2" scope="col">Ailment</th>
+            <th colspan="4" scope="col">Package </th>
+        </tr>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Test Details</th>
+            <th scope="col">Cost</th>
+            <th scope="col">Duration in weeks</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var package in Model)
+        {
+            <tr>
+                <td scope="row">@package.AilmentCategory</td>
+                @{
+                    List<Package> packages = ViewBag.Packages;
+                    Package pack1 = packages.Where(p=>p.PackageId == package.PackageId).FirstOrDefault();
+                    if (pack1 == null)
+                    {
+                        throw new NullReferenceException();
+                    }
+                }
+
+                <td scope="row">@pack1.PackageName</td>
+                <td scope="row">
+                    @pack1.TestDetails
+                </td>
+                <td scope="row">@pack1.Cost</td>
+                <td scope="row">@pack1.Duration</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<hr />

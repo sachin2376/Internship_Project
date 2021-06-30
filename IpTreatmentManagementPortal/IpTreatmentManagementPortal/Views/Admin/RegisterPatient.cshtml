@@ -1,0 +1,90 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using IpTreatmentManagementPortal.Entities 
+
+@{
+
+    var packages = ViewBag.Packages;
+    var listItems = new List<SelectListItem>();
+
+    foreach (Package package in packages)
+    {
+        SelectListItem item = new SelectListItem()
+        {
+            Text = package.PackageName,
+            Value = package.PackageName
+        };
+        listItems.Add(item);
+    }
+
+    var Ailments = new List<SelectListItem>();
+
+    foreach(Ailment ailment in ViewBag.context.Ailments)
+    {
+        SelectListItem item = new SelectListItem()
+        {
+            Text = ailment.AilmentName,
+            Value = ailment.AilmentName
+        };
+        Ailments.Add(item);
+    }
+
+}
+
+@model IpTreatmentManagementPortal.Entities.Patient
+
+
+<br />
+<br />
+@using (Html.BeginForm("FormulateTimeTable", "Admin", FormMethod.Post))
+{
+    <table class="table">
+
+        <tr>
+            <td style="width: 25%;">@Html.LabelFor(p => p.PatientId, new { @class = "form-control" })</td>
+            <td style="width: 75%;">@Html.TextBoxFor(s => s.PatientId, new { @class = "form-control" })</td>
+        </tr>
+        <tr>
+
+            <td>@Html.LabelFor(s => s.PatientName, new { @class = "form-control" })</td>
+            <td>@Html.TextBoxFor(s => s.PatientName, new { @class = "form-control" })</td>
+
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(s => s.PatientAge, new { @class = "form-control" })</td>
+            <td>@Html.TextBoxFor(s => s.PatientAge, new { @class = "form-control" })</td>
+
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(s => s.Ailment, new { @class = "form-control" })</td>
+            <td>
+                @Html.DropDownListFor(s => s.Ailment, Ailments , "Select Ailment", new { @class = "form-control" })
+            </td>
+        </tr>
+
+        <tr>
+            <td>@Html.LabelFor(s => s.TreatmentpackageName, new { @class = "form-control" })</td>
+            <td>
+                @Html.DropDownListFor(s => s.TreatmentpackageName, listItems, "Select Treatment Package", new { @class = "form-control" })
+            </td>
+        </tr>
+
+        <tr>
+            <td>@Html.LabelFor(s => s.TreatmentCommenceDate, new { @class = "form-control" })</td>
+            <td>@Html.EditorFor(s => s.TreatmentCommenceDate, new { htmlAttributes = new { @readonly = "true", @class = "form-control datepicker", @value=System.DateTime.Today, @id = "txtToDate" } })</td>
+        </tr>
+
+        @{
+
+        }
+        <tr>
+            <td><a class="btn btn-primary" asp-controller="Admin" asp-action="Index" role="button">Cancel</a></td>
+            <td><input class="btn btn-primary" type="submit" value="Formulate Timetable" /></td>
+        </tr>
+
+
+
+    </table>
+}

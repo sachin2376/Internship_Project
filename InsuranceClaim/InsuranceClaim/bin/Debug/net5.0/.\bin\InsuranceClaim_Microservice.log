@@ -1,0 +1,10 @@
+INFO  10:48:39  Getting insurance claims list
+INFO  10:55:20  Getting insurance claims list
+INFO  10:55:32  Getting insurance claims list
+ERROR 10:55:48 A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+INFO  10:56:06 Getting Insurer Details
+ERROR 10:56:15 A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - Undefined error: 0)
+INFO  10:56:20 Getting Insurer Details
+ERROR 10:56:20 A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - Undefined error: 0)
+INFO  10:57:09 Getting Insurer Details
+INFO  10:57:15  Getting insurance claims list

@@ -1,0 +1,16 @@
+services:
+  insuranceclaim:
+    build:
+      context: /Users/apple/Projects/InsuranceClaim
+      dockerfile: InsuranceClaim/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: insuranceclaim
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/apple/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/apple/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

@@ -1,0 +1,36 @@
+INFO  11:16:01 Getting Insurer Details
+INFO  11:20:38  Getting insurance claims list
+INFO  02:43:57  Getting insurance claims list
+INFO  02:44:14  Getting Insurance provide by package name
+ERROR 02:44:14 Package IPT_Package1 Not found in database !.. 
+INFO  02:44:40  Getting Insurance provide by package name
+ERROR 02:44:40 Package ALL Not found in database !.. 
+INFO  02:44:48  Getting Insurance provide by package name
+ERROR 02:44:48 Package PGR Not found in database !.. 
+INFO  02:46:31 Getting Insurer Details
+INFO  02:46:49  Getting Insurance provide by package name
+INFO  02:46:49  Insurer HUM returned !
+INFO  09:38:24  Getting insurance claims list
+INFO  09:38:41  Getting Insurance provide by package name
+INFO  09:38:41  Insurer LIC returned !
+INFO  09:38:52  Getting Insurance provide by package name
+INFO  09:38:52  Insurer LIC returned !
+INFO  11:38:37  Getting insurance claims list
+INFO  11:38:50 Getting Insurer Details
+INFO  11:39:34 Getting Insurer Details
+INFO  11:41:29  Getting insurance claims list
+INFO  12:10:42 Getting Insurer Details
+INFO  12:12:50 Getting Insurer Details
+INFO  12:12:55  Executing Post method ....!
+INFO  12:13:04 Getting Insurer Details
+INFO  12:13:09  Executing Post method ....!
+INFO  12:13:17  Getting insurance claims list
+INFO  12:13:35  Getting insurance claims list
+INFO  01:19:42 Getting Insurer Details
+INFO  01:19:53  Executing Post method ....!
+INFO  01:20:01  Getting insurance claims list
+INFO  01:21:08  Getting insurance claims list
+INFO  08:17:42 Getting Insurer Details
+INFO  08:17:53  Executing Post method ....!
+INFO  08:17:57  Getting insurance claims list
+INFO  08:18:08  Getting insurance claims list

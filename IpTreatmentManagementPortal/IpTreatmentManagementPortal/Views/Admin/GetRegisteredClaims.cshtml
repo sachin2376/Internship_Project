@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<IpTreatmentManagementPortal.Entities.InitiateClaim>
+
+
+
+<br />
+<br />
+
+<table class="table table-striped" border="1" style="text-align:center">
+    <thead style="background-color: #75D2F7;">
+        
+        <tr>
+            <th scope="col">Patient Name</th>
+            <th scope="col">Ailment</th>
+            <th scope="col">Treatment Package</th>
+            <th scope="col">Insurer Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var package in Model)
+        {
+            <tr>
+                <td scope="row">@package.PatientName</td>
+                <td scope="row">@package.Ailment</td>
+                <td scope="row">@package.TreatmentPackageName</td>
+                <td scope="row">@package.InsurerName</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<hr />

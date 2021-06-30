@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{E6C03070-1D25-4F0E-84FA-5ACF3A3512E8}|Default">
+  <MonoDevelop.Ide.ItemProperties.IpTreatmentManagementPortal PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repository/UserLog.cs">
+    <Files>
+      <File FileName="Controllers/ErrorController.cs" Line="1" Column="1" />
+      <File FileName="Views/Error/DisplayError.cshtml" />
+      <File FileName="Controllers/AdminController.cs" Line="47" Column="1" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Admin/Patients.cshtml" />
+      <File FileName="Views/Admin/AddInsurer.cshtml" />
+      <File FileName="Repository/InitiateClaimsRepo.cs" Line="68" Column="74" />
+      <File FileName="Repository/InsurerRepo.cs" Line="1" Column="1" />
+      <File FileName="Repository/OfferingsRepo.cs" Line="1" Column="1" />
+      <File FileName="Repository/PatientRepo.cs" Line="60" Column="19" />
+      <File FileName="Repository/UserLog.cs" Line="23" Column="9" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="log4net.config" />
+      <File FileName="appsettings.json" />
+      <File FileName="Entities/AuthenticateResponse.cs" />
+      <File FileName="Context/PatientDBContext.cs" />
+      <File FileName="UserModel.cs" />
+      <File FileName="Migrations/20210622065937_UserModelTableAdded.cs" />
+      <File FileName="Repository/Interfaces/IInsuranceClaims.cs" Line="1" Column="1" />
+      <File FileName="Repository/Interfaces/IInsurers.cs" Line="1" Column="1" />
+      <File FileName="Repository/Interfaces/IOfferings.cs" Line="1" Column="1" />
+      <File FileName="Repository/Interfaces/IPatients.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IpTreatmentManagementPortal" expanded="True">
+            <Node name="IpTreatmentManagementPortal" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+                <Node name="UserLog.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

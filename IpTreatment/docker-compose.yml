@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+    iptreatment:
+        image: iptreatment-api
+        ports:
+            - "9080:80"
+
+    iptreatmentpackage-api:
+        build: .
+        ports:
+            - "9081:80"
+

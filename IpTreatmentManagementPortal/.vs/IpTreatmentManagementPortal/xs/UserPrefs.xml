@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{89BD3D85-152F-4F3B-82EF-A64C9D1B0965}|Default">
+  <MonoDevelop.Ide.ItemProperties.IpTreatmentManagementPortal PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IpTreatmentManagementPortal/Startup.cs">
+    <Files>
+      <File FileName="IpTreatmentManagementPortal/Controllers/AdminController.cs" Line="256" Column="75" />
+      <File FileName="IpTreatmentManagementPortal/Views/Admin/RegisterPatient.cshtml" Line="62" Column="176" />
+      <File FileName="IpTreatmentManagementPortal/Views/Admin/Login.cshtml" Line="153" Column="15" />
+      <File FileName="IpTreatmentManagementPortal/Views/Shared/_empty.cshtml" Line="1" Column="1" />
+      <File FileName="IpTreatmentManagementPortal/Views/Shared/_Layout.cshtml" Line="40" Column="30" />
+      <File FileName="IpTreatmentManagementPortal/Repository/IOfferings.cs" Line="9" Column="42" />
+      <File FileName="IpTreatmentManagementPortal/Repository/IPatients.cs" Line="12" Column="1" />
+      <File FileName="IpTreatmentManagementPortal/Repository/IInsuranceClaims.cs" Line="8" Column="21" />
+      <File FileName="IpTreatmentManagementPortal/Repository/PatientRepo.cs" Line="15" Column="54" />
+      <File FileName="IpTreatmentManagementPortal/Repository/IInsurers.cs" Line="9" Column="6" />
+      <File FileName="IpTreatmentManagementPortal/Repository/InsurerRepo.cs" Line="27" Column="37" />
+      <File FileName="IpTreatmentManagementPortal/Repository/InitiateClaimsRepo.cs" Line="13" Column="36" />
+      <File FileName="IpTreatmentManagementPortal/Repository/OfferingsRepo.cs" Line="22" Column="1" />
+      <File FileName="IpTreatmentManagementPortal/Views/Admin/AddInsurer.cshtml" Line="1" Column="1" />
+      <File FileName="IpTreatmentManagementPortal/Program.cs" Line="1" Column="1" />
+      <File FileName="IpTreatmentManagementPortal/Startup.cs" Line="36" Column="13" />
+      <File FileName="IpTreatmentManagementPortal/Views/Admin/GetRegisteredClaims.cshtml" Line="29" Column="53" />
+      <File FileName="IpTreatmentManagementPortal/Views/Admin/GetTreatmentOfferings.cshtml" Line="23" Column="14" />
+      <File FileName="IpTreatmentManagementPortal/Models/InitiateClaim.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IpTreatmentManagementPortal" expanded="True">
+            <Node name="IpTreatmentManagementPortal" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

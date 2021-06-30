@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "~/Views/Shared/_empty.cshtml";
+}
+ 
+@model IpTreatmentManagementPortal.ErrorClass.Errorclass
+
+<div class="container">
+    <pre>
+        <h7 class="text-danger">
+            Error Occurred : @Model.ErrorMessage
+            Controller :@Model.controllername
+            Action : @Model.ActionName
+            <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index"> click here >> </a>
+
+        </h7>
+    </pre>
+</div>
+

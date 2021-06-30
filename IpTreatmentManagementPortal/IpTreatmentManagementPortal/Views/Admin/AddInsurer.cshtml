@@ -1,0 +1,89 @@
+﻿
+@using IpTreatmentManagementPortal.Entities;
+@model IpTreatmentManagementPortal.Entities.InitiateClaim
+
+
+
+<br />
+<br />
+@using (Html.BeginForm("AddInsurer", "Admin", FormMethod.Post))
+{
+<table class="table table-striped m-30 pl-30" style="text-align:left;justify-content:center;">
+    <tbody>
+        <tr>
+            @{
+                Patient patient = ViewBag.Patient;
+            }
+            <td> @Html.LabelFor(t => t.PatientName)</td>
+            <td> @Html.TextBoxFor(t => t.PatientName, new { @readonly = "readonly" })</td>
+
+        </tr>
+
+
+        <tr>
+            <td> @Html.Label("Status ")</td>
+                @if (patient.TreatmentStatus == "Completed")
+                {
+                    <td>
+                        @Html.TextBox(patient.TreatmentStatus,new { @readonly = "readonly"})
+                    </td>
+                }
+                else
+                {
+                    List<SelectListItem> list = new List<SelectListItem> {
+                            new SelectListItem(){ Text="In-Progress",Value="In-Progress"},
+                            new SelectListItem(){ Text="Completed",Value="Completed"}
+                        };
+                    <td>
+                        @Html.DropDownList(patient.TreatmentStatus.ToString(), list, new { @class = "form-control" })
+                    </td>
+               }
+        </tr>
+
+        
+
+        <tr>
+            <td> @Html.LabelFor(t => t.InsurerName)</td>
+            @if (patient.TreatmentStatus.Equals("Completed"))
+            {
+                @Html.TextBox(Model.InsurerName, new { @readonly = "readonly" })
+            }
+            else
+            {
+                List<SelectListItem> selectListItems = new List<SelectListItem>();
+                foreach (Insurer insurer in ViewBag.Insurers)
+                {
+                    SelectListItem selectListItem = new SelectListItem
+                    {
+                        Text = insurer.InsurerName + " - " + insurer.InsurerPackageName,
+                        Value = insurer.InsurerName
+                    };
+                    selectListItems.Add(selectListItem);
+                }
+
+                <td>
+                    @Html.DropDownListFor(t => t.InsurerName, selectListItems, "Select Insurance Provider", new { @class = "form-control" })
+                </td>
+            }
+         </tr>
+
+        <tr>
+            <td> @Html.LabelFor(t => t.Ailment)</td>
+            <td> @Html.TextBoxFor(t => t.Ailment, new { @readonly = "readonly" }) </td>
+
+        </tr>
+
+        <tr>
+            <td> @Html.LabelFor(t => t.TreatmentPackageName)</td>
+            <td> @Html.TextBoxFor(t => t.TreatmentPackageName, new { @readonly = "readonly" }) </td>
+
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input class="btn btn-primary" type="submit" value="Initiate" /></td>
+
+        </tr>
+        </tbody>
+    </table>
+}

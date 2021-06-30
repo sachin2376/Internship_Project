@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{43B4B814-EB4A-4A77-9269-DDE48B5BCA15}|Default">
+  <MonoDevelop.Ide.ItemProperties.InsuranceClaim PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InsuranceClaim/Controllers/InsurerController.cs">
+    <Files>
+      <File FileName="InsuranceClaim/Controllers/InsurerController.cs" Line="17" Column="68" />
+      <File FileName="InsuranceClaim/Properties/launchSettings.json" />
+      <File FileName="InsuranceClaim/Program.cs" />
+      <File FileName="InsuranceClaim/appsettings.Development.json" />
+      <File FileName="InsuranceClaim/Repository/InsurerRepo.cs" />
+      <File FileName="InsuranceClaim/Repository/InitiateClaimRepo.cs" />
+      <File FileName="InsuranceClaim/Startup.cs" />
+      <File FileName="InsuranceClaim/Helpers/AppSettings.cs" />
+      <File FileName="InsuranceClaim/Helpers/JwtMiddleware.cs" />
+      <File FileName="InsuranceClaim/Helpers/AuthorizeAttribute.cs" />
+      <File FileName="InsuranceClaim/Services/UserService.cs" />
+      <File FileName="InsuranceClaim/appsettings.json" />
+      <File FileName="InsuranceClaim/Repository/Interfaces/IInsuranceClaims.cs" />
+      <File FileName="InsuranceClaim/Repository/Interfaces/IInsurer.cs" />
+      <File FileName="InsuranceClaim/Entities/PatientDBContext.cs" />
+      <File FileName="InsuranceClaim/log4net.config" />
+      <File FileName="InsuranceClaim/Entities/Ailment.cs" />
+      <File FileName="InsuranceClaim/Entities/UserModel.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InsuranceClaim" expanded="True">
+            <Node name="InsuranceClaim" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="InsurerController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

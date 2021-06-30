@@ -1,0 +1,8 @@
+INFO  11:46:43 (GET) IpTreatmentPackages - api
+ERROR 11:47:05 A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+ERROR 11:47:05  Treatment Packages -- null || Failed to get list
+INFO  02:14:51  Getting All Packages
+INFO  05:58:10  Getting All Packages
+INFO  11:39:50  Getting All Specialists
+INFO  08:15:12  Getting All Specialists
+INFO  08:15:24  Getting All Packages

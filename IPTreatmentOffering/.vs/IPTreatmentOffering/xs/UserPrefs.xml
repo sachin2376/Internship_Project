@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{ADCB2FBA-6788-4534-8467-00805473BC1D}|Default">
+  <MonoDevelop.Ide.ItemProperties.IPTreatmentOffering PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="IPTreatmentOffering/Startup.cs">
+    <Files>
+      <File FileName="IPTreatmentOffering/Models/IpTreatmentPackage.cs" Line="24" Column="6" />
+      <File FileName="IPTreatmentOffering/Models/Specialist.cs" />
+      <File FileName="IPTreatmentOffering/Models/Package.cs" />
+      <File FileName="IPTreatmentOffering/Controllers/IpTreatmentPackagesController.cs" Line="49" Column="13" />
+      <File FileName="IPTreatmentOffering/Properties/launchSettings.json" />
+      <File FileName="IPTreatmentOffering/appsettings.json" Line="1" Column="1" />
+      <File FileName="IPTreatmentOffering/Program.cs" Line="19" Column="1" />
+      <File FileName="IPTreatmentOffering/Startup.cs" Line="28" Column="31" />
+      <File FileName="IPTreatmentOffering/Repository/IPackage.cs" Line="14" Column="56" />
+      <File FileName="IPTreatmentOffering/Repository/ISpecialist.cs" Line="10" Column="15" />
+      <File FileName="IPTreatmentOffering/Repository/IpTreatmentPackageRepo.cs" Line="33" Column="1" />
+      <File FileName="IPTreatmentOffering/Repository/IIpTreatmentPackages.cs" Line="24" Column="1" />
+      <File FileName="IPTreatmentOffering/Repository/PackageRep.cs" Line="14" Column="37" />
+      <File FileName="IPTreatmentOffering/Repository/SpecialistRepo.cs" Line="15" Column="1" />
+      <File FileName="IPTreatmentOffering/appsettings.Development.json" Line="6" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IPTreatmentOffering" expanded="True">
+            <Node name="IPTreatmentOffering" expanded="True">
+              <Node name="Repository" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

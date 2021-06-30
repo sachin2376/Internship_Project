@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<IpTreatmentManagementPortal.Entities.Patient>
+
+
+
+<br />
+<br />
+
+<table class="table table-striped"border="1" style="text-align:center">
+    <thead style="background-color: #75D2F7;">
+        <tr>
+            <th scope="col">Patient Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Ailment type</th>
+            <th scope="col">Treatment package</th>
+            <th scope="col">Commencement date</th>
+            <th scope="col">Status</th>
+            <th scope="col"> Insurance ClaimId</th>
+            <th scope="col"> Treatment PlanId</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var patient in Model)
+        {
+        <tr>
+            <td scope="row">@patient.PatientId</td>
+            <td scope="row">@Html.ActionLink(@patient.PatientName, "AddInsurer", "Admin", new { id = patient.PatientId }) </td>
+            <td scope="row">@patient.PatientAge</td>
+            <td scope="row">@patient.Ailment</td>
+
+            <td scope="row">@patient.TreatmentpackageName</td>
+            @if (patient.TreatmentStatus == "Completed")
+            {
+                <td scope="row"> - </td>
+            }
+            else
+            {
+                <td scope="row">@patient.TreatmentCommenceDate.ToShortDateString()</td>
+            }
+            <td scope="row">@patient.TreatmentStatus</td>
+            <td scope="row">
+                @if (patient.InitiateClaimId == null)
+                {
+                    <span> - </span>
+                }
+                else
+                {
+
+                    @patient.InitiateClaimId
+                }
+
+            </td>
+            @if (patient.TreatmentPlanId == null)
+            {
+                <td scope="row"> - </td>
+            }
+            else
+            {
+                <td scope="row">@patient.TreatmentPlanId</td>
+            }
+
+        </tr>
+        }
+
+
+
+    </tbody>
+</table>
+<hr />

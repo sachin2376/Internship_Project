@@ -1,0 +1,10 @@
+/Users/apple/Projects/IPTreatmentOffering/bin/Debug/IPTreatmentOffering.deps.json
+/Users/apple/Projects/IPTreatmentOffering/bin/Debug/IPTreatmentOffering.runtimeconfig.json
+/Users/apple/Projects/IPTreatmentOffering/bin/Debug/IPTreatmentOffering.runtimeconfig.dev.json
+/Users/apple/Projects/IPTreatmentOffering/bin/Debug/appsettings.Development.json
+/Users/apple/Projects/IPTreatmentOffering/bin/Debug/appsettings.json
+/Users/apple/Projects/IPTreatmentOffering/bin/Debug/IPTreatmentOffering.dll
+/Users/apple/Projects/IPTreatmentOffering/bin/Debug/IPTreatmentOffering.pdb
+/Users/apple/Projects/IPTreatmentOffering/obj/Debug/docker-compose.dcprojAssemblyReference.cache
+/Users/apple/Projects/IPTreatmentOffering/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/apple/Projects/IPTreatmentOffering/obj/Debug/docker-compose.dcproj.CopyComplete

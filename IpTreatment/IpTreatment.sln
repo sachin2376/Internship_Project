@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpTreatment", "IpTreatment\IpTreatment.csproj", "{F78D4870-3E12-4783-B319-91BC84A8EDF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2B2343B-EF65-4024-9952-0FF867A550F7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpTreatmentTest", "IpTreatmentTest\IpTreatmentTest.csproj", "{B980A7D2-B04E-4310-88D6-A3012B48F911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F78D4870-3E12-4783-B319-91BC84A8EDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78D4870-3E12-4783-B319-91BC84A8EDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78D4870-3E12-4783-B319-91BC84A8EDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78D4870-3E12-4783-B319-91BC84A8EDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B980A7D2-B04E-4310-88D6-A3012B48F911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B980A7D2-B04E-4310-88D6-A3012B48F911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B980A7D2-B04E-4310-88D6-A3012B48F911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B980A7D2-B04E-4310-88D6-A3012B48F911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85025CA2-FCD2-460B-A2B9-97BB817807C4}
+	EndGlobalSection
+EndGlobal

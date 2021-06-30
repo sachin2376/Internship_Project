@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  iptreatmentoffering:
+    image: ${DOCKER_REGISTRY-}iptreatmentoffering
+    build:
+      context: .
+      dockerfile: IPTreatmentOffering/Dockerfile
